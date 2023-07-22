@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Details</title>
+</head>
+<body>
+    <div class="container-fluid bg-primary text-light mt-1 m-0  ">
+        <div class="row">
+            <form id="form" class="m-2">
+                <h1 class="p-2">ADD PRODUCT DETAILS</h1>
+                <div class="row">
+                    <div class=" container justify-content-center">
+                        <div class="form-group">
+                            <label class="p-2">Add image Url</label>
+                            <input type="text" class="form-control p-2" id="Image" placeholder="Enter Image Url"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label class="p-2">Add product name</label>
+                            <input type="text" class="form-control p-2" id="Product" placeholder="Enter Product Name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label class="p-2">Add Price</label>
+                            <input type="number" class="form-control p-2" id="Price" placeholder="Enter Price" required>
+                        </div>
+                        <div>
+                            <label class="p-2">Category</label>
+                            <select class="p-2" id="Category">
+                                <option value="electronic">Electronics</option>
+                                <option value="tv">TV&Appliances</option>
+                                <option value="men">Men</option>
+                                <option value="women">Women</option>
+                                <option value="baby">Baby&Kids</option>
+                                <option value="home">Home&Furniture</option>
+                                <option value="sports">Sports,books&more</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <form action="landing.html">
+                    <input type="submit" id="button" value="Submit" style="font-size:20px;height:40px;width:100px;background-color: rgb(40, 223, 16);color: white;border:0px solid black;border-radius: 3px;">
+                </form>
+            </form>
+        </div>
+    </div>
+    <div id="five" style="color:white;background-color: black;text-align: center;margin-top: 10px;"><p id="p2">Copyright © 2023- All Rights Reserved.<br><br><br>Powered by Flipkart</p></div>
+
+</body>
+</html>
